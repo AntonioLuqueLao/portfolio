@@ -1,38 +1,352 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+.nav-bar {
+  width: 600px;
+  position: relative;
+  background-color: black;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.tweets-wrapper {
+  width: 600px;
+  background-color: black;
+  border: 1px solid gray;
+}
+
+.cover-image-wrapper {
+  height: 200px;
+  background-color: black;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cover-image {
+  width: 100%;
+}
+
+.profile-pic-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.profile-pic {
+  width: 130px;
+  height: auto;
+  cursor: pointer;
+  transition: filter 0.2s linear;
+}
+.profile-pic:hover {
+  filter: brightness(0.5);
+}
+.user-data-container{
+  height: 240px;
+  background-color: black;
+  color: gray;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.user-description {
+  left: 20px;
+  top: 140px;
+  position: absolute;
+  text-align: left;
+}
+.user-location {
+  left: 20px;
+  top: 190px;
+  position: absolute;
+}
+
+.user-name-wrapper {
+  top: 80px;
+  position: absolute;
+  width: fit-content;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.user-name-wrapper h3{
   color: white;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.user-followers {
+  left: 160px;
+  top: 225px;
+  position: absolute;
+}
+.user-following {
+  left: 20px;
+  top: 225px;
+  position: absolute;
+}
+.nav-links-container {
+  height: 60px;
+  background-color: black;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links-container a {
+  display: flex;
+  justify-content: center;
+background-color: black;
+height: 100%;
+width: 100%;
+text-decoration: none;
+color: gray;
+transition: background-color 0.2s linear;
+}
+.nav-link-container {
+  height: 90%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  font-weight: 600;
+  color: white;
+  border-bottom: 3px solid rgb(29, 155, 240);
 }
+.nav-links-container a:hover {
+  background-color: rgb(165, 165, 165) ;
+}
+
+.curriculum-link {
+  text-decoration: none;
+  color: black;
+}
+
+.curriculum-link-container {
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  transition: background-color 0.2s ease-in-out;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.curriculum-link-container:hover {
+  background-color: rgb(201, 200, 200);
+}
+
+/* TWEET */
+
+.tweet-container {
+  background-color: black;
+  display: flex;
+  color: white;
+  padding: 10px;
+  height: fit-content;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+.tweet-container:hover {
+  background-color: rgb(19, 19, 19);
+}
+
+.tweet-right-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.tweet-right-container div {
+  text-align: left;
+}
+
+.tweet-profile-pic-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.2s linear;
+}
+
+.tweet-profile-pic:hover {
+  filter: brightness(0.5);
+}
+.tweet-profile-pic {
+  width: 60px;
+  height: auto;
+}
+
+.tweet-text-container {
+  padding-top: 10px;
+}
+
+.tweet-picture-section {
+  padding: 10px 0px;
+  display: flex;
+  width: 27em;
+  justify-content: center;
+  align-items: center;
+}
+.tweet-picture-container {
+  border-radius: 10px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tweet-picture {
+
+}
+
+.tweet-likes-container {
+padding-top: 15px;
+display: flex;
+gap: 50px;
+font-size: 15px;
+}
+
+.tweet-likes-container .svg-inline--fa  {
+  cursor: pointer;
+  color: gray;
+  transition: color 0.2s linear;
+}
+
+.tweet-likes-container .fa-comment:hover {
+  color: rgb(29, 155, 240);
+}
+.tweet-likes-container .fa-retweet:hover {
+  color: lightgreen;
+}
+.tweet-likes-container .fa-heart:hover {
+  color: red;
+}
+
+.tweet-video-container {
+  width: 80%;
+}
+.tweet-video {
+  width: 90%;
+}
+
+/* EDUCATION */
+
+.education-wrapper {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid gray;
+  position: fixed;
+  right: 5px;
+  top: 20px;
+  height: fit-content;
+  width: 350px;
+  padding: 5px;
+}
+
+.education-wrapper h3 {
+  padding-bottom: 15px;
+}
+
+/* EDUCATION ITEM */
+
+.education-item {
+  display: flex;
+}
+
+.education-item-profile-container {
+  padding: 5px 0px;
+}
+.education-item-profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.education-item-profile-pic {
+  height: 50px;
+  width: auto;
+  transition: filter 0.2s linear;
+}
+.education-item-profile-pic:hover {
+  filter: brightness(0.5);
+}
+.education-item-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.education-item-contact-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+.education-item-contact-button {
+  background-color: white;
+  color: black;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  padding:5px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.education-item-contact-button:hover {
+  background-color: rgb(201, 200, 200);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1350px) {
+  .education-wrapper {
+    display: none;
+  }
+@media (max-width: 600px) {
+  .nav-bar {
+    width: 100vw;
+  }
+  
+  .tweets-wrapper {
+    width: 100vw
+  }
+}}
