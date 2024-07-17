@@ -15,7 +15,7 @@ const Nav = () => {
         <img src="/2559829618857443200_IMG_4424.jpg" alt="Profile" className="profile-pic" />
       </div>
       <div className="user-data-container">
-      <a className="curriculum-link" href="/curriculum_fullStack_LuqueLaoAntonio.pdf" download>
+      <a className="curriculum-link" href="/Curriculum informático.pdf" download>
           <div className='curriculum-link-container'>
             <span style={{fontWeight: "550"}}>Descargar CV</span>
           </div>

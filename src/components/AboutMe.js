@@ -1,4 +1,3 @@
-import { text } from "@fortawesome/fontawesome-svg-core";
 import Tweet from "./Tweet";
 
 const aboutMeTweets = [
@@ -16,17 +15,7 @@ const aboutMeTweets = [
         text: "Ahora mismo me hallo en la misión de convertirme en un programador todoterreno, por lo que mis propósitos a medio y largo plazo son, además de profundizar en las tecnologías que ya sé, adentrarme en el desarrollo móvil con React Native y aprender Django y PostgreSQL para ser más polivalente en el backend.",
         images: [],
         video: "",
-    },
-    {
-        text: "Sueño con emprender en un futuro no muy lejano, así que si buscáis una persona ambiciosa y con ganas de aprender, dirigíos a la pestaña de contactos y elegid la vía que más cómoda os resulte para entablar una conversación.",
-        images: [],
-        video: "",
-    },
-    {
-        text: "Y si todavía tenéis alguna duda, pasaros por la pestaña de proyectos ¡Puede que alguno os sorprenda!",
-        images: [],
-        video: "",
-    },
+    }
 ]
 
 const AboutMe = () => {

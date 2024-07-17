@@ -17,6 +17,8 @@ const Tweet = ({tweet}) => {
 
                 <div className="tweet-text-container">
                     <p>{tweet.text}</p>
+                    {tweet.link && <br/>}
+                    {tweet.link && <a href={tweet.link} target="blank" style={{textDecoration: "none", fontWeight: "600"}}>Enlace al proyecto</a>}
                 </div>
 
                 {tweet.images && <div className="tweet-picture-section">
