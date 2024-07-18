@@ -29,8 +29,8 @@ const Nav = () => {
 
         <div className='nav-contact'>
           <a href="https://github.com/AntonioLuqueLao" target="_blank" rel="noopener noreferrer"><span><img src='/github-logo.png' alt='/github-logo.png'/>Github</span></a>
-          <a href="https://www.linkedin.com/in/antonio-luque-lao-3b5b11221/" target="_blank" rel="noopener noreferrer"><span><img src='/gmail-new-icon5198.jpg' alt='/gmail-new-icon5198.jpg'/>Enviar e-mail</span></a>
-          <a href="mailto:antonioluquelao@gmail.com?Subject=Oferta%20de%empleo" target="_blank" rel="noopener noreferrer"><span><img src='/logo-linkdin.webp' alt='/logo-linkdin.webp'/>linkedin</span></a>
+          <a  href="mailto:antonioluquelao@gmail.com?Subject=Oferta%20de%empleo" target="_blank" rel="noopener noreferrer"><span><img src='/gmail-new-icon5198.jpg' alt='/gmail-new-icon5198.jpg'/>Enviar e-mail</span></a>
+          <a href="https://www.linkedin.com/in/antonio-luque-lao-3b5b11221/" target="_blank" rel="noopener noreferrer"><span><img src='/logo-linkdin.webp' alt='/logo-linkdin.webp'/>linkedin</span></a>
         </div>
 
         <span className='user-location'><p><FontAwesomeIcon icon={faLocationDot} /> Sevilla, España</p></span>
