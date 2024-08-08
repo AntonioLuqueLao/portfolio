@@ -389,6 +389,13 @@ font-size: 15px;
     width: 100vw
   }
 
+  .user-location {
+    top: 205px;
+  }
+  .nav-contact {
+    top: 230px
+  }
+
 /*   .tweet-picture-section {
     border: 1px solid red;
   } */
