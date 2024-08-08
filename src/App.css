@@ -187,6 +187,10 @@ transition: background-color 0.2s linear;
   text-align: left;
 }
 
+.tweet-picture-section {
+  margin: auto;
+}
+
 .tweet-profile-pic-container {
   width: 60px;
   height: 60px;
