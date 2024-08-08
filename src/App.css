@@ -189,6 +189,10 @@ transition: background-color 0.2s linear;
 
 .tweet-picture-section {
   margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  max-height: 320px;
+
 }
 
 .tweet-profile-pic-container {
@@ -384,4 +388,8 @@ font-size: 15px;
   .tweets-wrapper {
     width: 100vw
   }
+
+/*   .tweet-picture-section {
+    border: 1px solid red;
+  } */
 }}
