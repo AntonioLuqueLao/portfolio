@@ -4,7 +4,7 @@ const Contact = () => {
 
     const cursos = [
         {
-            text: "Curso desarrollo fullStack - Programa tucarreradigital.com CoreNetworks Sevilla - SEPE impartido por Alejandro Talaminos. Curso presencial de 260 horas donde descubrí el maravillos mundo del desarrollo web. Desde entonces he estado estudiando durante dos años de forma autodidacta principalmente",
+            text: "Curso desarrollo fullStack - Programa tucarreradigital.com CoreNetworks Sevilla - SEPE impartido por Alejandro Talaminos. Curso presencial de 260 horas donde descubrí el maravillos mundo del desarrollo web. Desde entonces he estado estudiando durante más de dos años de forma autodidacta principalmente",
             images: "core_logo_2.png"
         },
         {
