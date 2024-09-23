@@ -21,6 +21,11 @@ const Projects = () => {
             video: "/video-pasarela.mp4",
         },
         {
+            text: "PRÓXIMAMENTE: aplicación full stack con React y Django. ¡Estad atentos!",
+            images: "/work-in-progress.jpg",
+            video: "",
+        },
+        {
             text: "Chat en tiempo real realizado con websockets. Aunque empezó como un proyecto individual, al final lo acabé incorporando a mi red social. Tiene check y doble check, se pueden borrar mensajes, se pueden responder mensajes específicos, y puedes saber tanto la hora como el día en el que cada uno de los mensajes fueron enviados. ",
             images: [],
             video: "/video-chat.mp4",

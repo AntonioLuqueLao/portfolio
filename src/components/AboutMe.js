@@ -2,17 +2,17 @@ import Tweet from "./Tweet";
 
 const aboutMeTweets = [
     {
-        text: "¡Bienvenidos a mi Portfolio Web! Mi nombre es Antonio y soy un programador Full Stack centrado en JavaScript y sus diferentes Frameworks, como podéis leer en la descripción de arriba.",
+        text: "¡Bienvenidos a mi Portfolio Web! Mi nombre es Antonio y soy un programador Full Stack centrado en JavaScript/TypeScript y Python y sus respectivos frameworks.",
         images: [],
         video: "",
     },
     {
-        text: "A pesar de centrarme en JavasScript y su variante tipada(TypeScript), tengo una buena base en otros dos lenguajes: Python y Java.",
+        text: "A pesar de centrarme en estos lenguajes, tengo una buena base en Java",
         images: [],
         video: "",
     },
     {
-        text: "Ahora mismo me hallo en la misión de convertirme en un programador todoterreno, por lo que mis propósitos a medio y largo plazo son, además de profundizar en las tecnologías que ya sé, adentrarme en el desarrollo móvil con React Native y aprender Django y PostgreSQL para ser más polivalente en el backend.",
+        text: "Ahora mismo me hallo en la misión de convertirme en un programador todoterreno, por lo que mis propósitos a medio y largo plazo son, además de profundizar en las tecnologías que ya sé, adentrarme en el desarrollo móvil con React Native.",
         images: [],
         video: "",
     }
