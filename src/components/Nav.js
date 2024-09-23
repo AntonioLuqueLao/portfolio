@@ -25,7 +25,7 @@ const Nav = () => {
           <span>@antonioelele</span>
         </div>
 
-        <span className='user-description'><p style={{ color: "white" }}>Full Stack Developer / js / ts / React / css / Node.js / Express.js / MongoDB / Mongoose / Testing / Java / Python</p></span>
+        <span className='user-description'><p style={{ color: "white" }}>Full Stack Developer / js / ts / React / css / Node.js / Express.js / MongoDB / Mongoose / Testing / Java / Python / Django / PostgreSQL</p></span>
 
         <div className='nav-contact'>
           <a href="https://github.com/AntonioLuqueLao" target="_blank" rel="noopener noreferrer"><span><img src='/github-logo.png' alt='/github-logo.png'/>Github</span></a>
